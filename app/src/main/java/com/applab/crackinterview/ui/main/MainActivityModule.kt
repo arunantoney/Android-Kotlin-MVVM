@@ -14,12 +14,12 @@ import io.reactivex.disposables.CompositeDisposable
 class MainActivityModule {
 
     @Provides
-    internal fun mainViewModelProvider(mainViewModel: MainViewModel): ViewModelProvider.Factory {
-        return ViewModelProviderFactory(mainViewModel)
-    }
+    internal fun mainViewModelProvider(mainViewModel: MainViewModel): ViewModelProvider.Factory =
+         ViewModelProviderFactory(mainViewModel)
+
 
     @Provides
-    internal fun provideMainViewModel( schedulerProvider: SchedulerProvider,compositeDisposable: CompositeDisposable): MainViewModel {
-        return MainViewModel( schedulerProvider,compositeDisposable)
-    }
+    internal fun provideMainViewModel( schedulerProvider: SchedulerProvider,compositeDisposable: CompositeDisposable): MainViewModel =
+         MainViewModel( schedulerProvider,compositeDisposable)
+
 }
