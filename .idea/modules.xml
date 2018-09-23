@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-Kotlin-MVVM.iml" filepath="$PROJECT_DIR$/Android-Kotlin-MVVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/crack-interview.iml" filepath="$PROJECT_DIR$/crack-interview.iml" />
     </modules>
   </component>
 </project>

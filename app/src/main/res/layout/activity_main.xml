@@ -8,7 +8,7 @@
         <import type="android.view.View" />
         <variable
             name="viewModel"
-            type="com.applab.crackinterview.ui.main.MainViewModel" />
+            type="com.applab.ktmvvm.ui.main.MainViewModel" />
     </data>
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"

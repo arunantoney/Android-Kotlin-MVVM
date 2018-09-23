@@ -8,7 +8,7 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.applab.crackinterview"
+        applicationId "com.applab.ktmvvm"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1
